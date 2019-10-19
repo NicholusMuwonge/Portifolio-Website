@@ -3,7 +3,7 @@ body{
   background-color:#edf5e1;
   background: url('./8727.jpg');
   background-repeat:repeat;
-  background-size:cover;
+  background-size: contain;
   background-blend-mode: screen;
 }
 
@@ -32,6 +32,7 @@ body{
   padding-top: 0em;
   color: white;
   padding-right: 9em;
+  // background: linear-gradient(to top, transparent 1px, rgb(0, 128, 128) 95%);
 }
 
 #meet{
@@ -125,6 +126,8 @@ button:hover{
     padding-left: 0em;
     padding-top: 0em;
     color: white;
+    // background: linear-gradient(to bottom, transparent 80%, rgba(253, 251, 251, 0.897) 95%);
+    // background: linear-gradient(to bottom,white, #c3faec, white);
   }
   .name{
     font-size: 3em;
@@ -156,7 +159,7 @@ button:hover{
     background-size:cover;
   }
   .intro{
-    background-color: rgba(0, 128, 128, 0.842);
+    background-color: rgba(0, 128, 128, 0.603);
     padding-bottom:10.5em;
     padding-left: 1em;
     padding-top: 0em;

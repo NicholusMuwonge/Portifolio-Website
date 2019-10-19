@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Route, Switch, HashRouter  as Router } from "react-router-dom";
+import { Route, HashRouter  as Router } from "react-router-dom";
+import Navbar from '../Navbar/navbar'
 import App from "../App/App";
-// import Navbar from "../Navbar/navbar"
-
+import Info from "../About/About";
 class Routing extends React.Component {
     render(){
         return (
@@ -11,6 +11,7 @@ class Routing extends React.Component {
             {/* <Navbar/> */}
             <Router>
                 <Route exact path='/' component={App} />
+                <Info/>
             </Router>
             </React.Fragment>
         );
