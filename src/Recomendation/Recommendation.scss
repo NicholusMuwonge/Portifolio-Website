@@ -1,0 +1,58 @@
+.sliders {
+  padding-top: 5%;
+  background-image: url("../App/buttons.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  box-shadow: inset 0 0 0 1000px #edf5e1e1;
+  padding-bottom: 15%;
+}
+
+h3 {
+  margin-left: 42%;
+}
+
+.social {
+  padding-inline-start: 18em;
+  word-spacing: 15px;
+  padding-top: 4em;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 128, 128, 0.616);
+  color: #fff7c0b0;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 1em;
+}
+
+@media (max-width: 360px) and (max-width: 480px) {
+  .social {
+    padding-inline-start: 8em;
+  }
+
+  .sliders {
+    width: 225%;
+  }
+
+  h3 {
+    margin-left: 38%;
+  }
+}
+
+@media (max-width: 769px) {
+  .sliders {
+    width: 225%;
+  }
+
+  .footer {
+    width: 225%;
+  }
+
+  .social {
+    padding-inline-start: 6em;
+  }
+}
