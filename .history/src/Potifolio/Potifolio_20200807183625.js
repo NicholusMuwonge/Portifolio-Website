@@ -7,8 +7,6 @@ import I from "./Ireporter.JPG";
 import pricing from "./pricing.JPG";
 import fire from "./fyyur.jpg";
 import url from "./UrlShort.JPG";
-import CCP from "./CCPHome.JPG";
-import CleanSnap from "./HomeScreenCleanSnap.JPG";
 
 class Potifolio extends React.Component {
   render() {
@@ -31,8 +29,8 @@ class Potifolio extends React.Component {
                   </p>
                 </div>
               </div>
-              <div class="card purple">
-                <img class="card-img-top" src={CleanSnap} alt="Card cap" />
+              <div class="card wheat">
+                <img class="card-img-top" src={Ah} alt="Card cap" />
                 <div class="card-body">
                   <h5 class="card-title text-center">Clean Snap</h5>
                   <p class="card-text">
@@ -49,6 +47,15 @@ class Potifolio extends React.Component {
                   Angular, Ionic, WordPress and SalesForce
                   <br />
                   <br />
+                  <span
+                    class="card-text"
+                    style={{
+                      fontSize: "14px",
+                      border: "yellow 0.5px solid",
+                      padding: "10px"
+                    }}
+                  >
+                  </span>
                   <br />
                   <br />
                   <p class="card-text" style={{ textDecoration: "overline" }}>
@@ -62,13 +69,14 @@ class Potifolio extends React.Component {
                   </p>
                 </div>
               </div>
-              <div class="card plum">
-                <img class="card-img-top" src={CCP} alt="Card cap" />
+              <div class="card wheat">
+                <img class="card-img-top" src={Ah} alt="Card cap" />
                 <div class="card-body">
                   <h5 class="card-title text-center">Construction Clean Partners</h5>
                   <p class="card-text">
                     On this application, I worked closely with my client to make the user interface more user friendly and very accessible to all non pro users.
-                    I built a leads generation feature that has come in handy in terms of converting people into fulltime users.
+
+                    I built a leads generat
                     I also took care of mobile responsiveness and my client found my work outstanding.
                     <br />
                     <br />
@@ -81,12 +89,20 @@ class Potifolio extends React.Component {
                   Angular, Ionic, WordPress and SalesForce
                   <br />
                   <br />
-                  
+                  <span
+                    class="card-text"
+                    style={{
+                      fontSize: "14px",
+                      border: "yellow 0.5px solid",
+                      padding: "10px"
+                    }}
+                  >
+                  </span>
                   <br />
                   <br />
                   <p class="card-text" style={{ textDecoration: "overline" }}>
                     <a
-                      href="https://app.constructioncleanpartners.com/#/tab/map"
+                      href="https://app.getcleansnap.com/#/tab/map"
                       target="tab"
                       style={{ color: "#edf5e1" }}
                     >
@@ -95,7 +111,61 @@ class Potifolio extends React.Component {
                   </p>
                 </div>
               </div>
-
+              <div class="card wheat">
+                <img class="card-img-top" src={Ah} alt="Card cap" />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Authors Haven</h5>
+                  <p class="card-text">
+                    Authors Haven is Medium clone on which I contributed with a
+                    team of brilliant Engineers at Andela. <br />
+                    This is one of those projects that gave me exposure to
+                    working in an Agile setting, working in a team and code
+                    reviews.
+                    <br />
+                    <br />I worked on the create and retrieve profile feature
+                    and also the homepage as per the Product owner's
+                    instructions. <br />
+                    <br />
+                    This Product Focuses on Implementing React and Redux not the
+                    design, so some of the work may not be so visually
+                    attractive and responsive.Its best tested out on the desktop
+                    <br />
+                    <br />
+                    Project was Written In:
+                  </p>
+                  <hr />
+                  React ,Redux , Python(Django), HTML, CSS
+                  <br />
+                  <br />
+                  <span
+                    class="card-text"
+                    style={{
+                      fontSize: "14px",
+                      border: "yellow 0.5px solid",
+                      padding: "10px"
+                    }}
+                  >
+                    <a
+                      href="https://github.com/andela/ah-frontend-space"
+                      target="tab"
+                      style={{ color: "#edf5e1" }}
+                    >
+                      View Code on Github
+                    </a>
+                  </span>
+                  <br />
+                  <br />
+                  <p class="card-text" style={{ textDecoration: "overline" }}>
+                    <a
+                      href="https://ah-frontend-space-staging.herokuapp.com/signup"
+                      target="tab"
+                      style={{ color: "#edf5e1" }}
+                    >
+                      Visit Website
+                    </a>
+                  </p>
+                </div>
+              </div>
               <div class="card purple">
                 <img class="card-img-top" src={l} alt="Card cap" />
                 <div class="card-body">
@@ -306,7 +376,7 @@ class Potifolio extends React.Component {
                 </div>
               </div>
 
-              {/* <div class="card plum">
+              <div class="card plum">
                 <img class="card-img-top" src={pricing} alt="Card cap" />
                 <div class="card-body">
                   <h5 class="card-title text-center">Pricing Details Table</h5>
@@ -353,62 +423,8 @@ class Potifolio extends React.Component {
                     </a>
                   </p>
                 </div>
-              </div> */}
-              <div class="card wheat">
-                <img class="card-img-top" src={Ah} alt="Card cap" />
-                <div class="card-body">
-                  <h5 class="card-title text-center">Authors Haven</h5>
-                  <p class="card-text">
-                    Authors Haven is Medium clone on which I contributed with a
-                    team of brilliant Engineers at Andela. <br />
-                    This is one of those projects that gave me exposure to
-                    working in an Agile setting, working in a team and code
-                    reviews.
-                    <br />
-                    <br />I worked on the create and retrieve profile feature
-                    and also the homepage as per the Product owner's
-                    instructions. <br />
-                    <br />
-                    This Product Focuses on Implementing React and Redux not the
-                    design, so some of the work may not be so visually
-                    attractive and responsive.Its best tested out on the desktop
-                    <br />
-                    <br />
-                    Project was Written In:
-                  </p>
-                  <hr />
-                  React ,Redux , Python(Django), HTML, CSS
-                  <br />
-                  <br />
-                  <span
-                    class="card-text"
-                    style={{
-                      fontSize: "14px",
-                      border: "yellow 0.5px solid",
-                      padding: "10px"
-                    }}
-                  >
-                    <a
-                      href="https://github.com/andela/ah-frontend-space"
-                      target="tab"
-                      style={{ color: "#edf5e1" }}
-                    >
-                      View Code on Github
-                    </a>
-                  </span>
-                  <br />
-                  <br />
-                  <p class="card-text" style={{ textDecoration: "overline" }}>
-                    <a
-                      href="https://ah-frontend-space-staging.herokuapp.com/signup"
-                      target="tab"
-                      style={{ color: "#edf5e1" }}
-                    >
-                      Visit Website
-                    </a>
-                  </p>
-                </div>
               </div>
+
               <div class="card ez">
                 <img class="card-img-top" src={p} alt="Card cap" />
                 <div class="card-body">
